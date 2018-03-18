@@ -20,8 +20,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 
-node('testing') {
-
 
     currentBuild.result = "SUCCESS"
 
@@ -78,4 +76,4 @@ node('testing') {
         throw err
     }
 
-}
+
